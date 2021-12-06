@@ -1,0 +1,55 @@
+*{
+    background-image:url(images/bg-desktop.svg);
+    background-color: blueviolet;
+    font-family:sans-serif;
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+    text-decoration:solid;
+    margin-left: 2rem;
+}
+h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 200;
+
+}
+p{
+    color: white;
+    font-size: 24px;
+}
+.left{
+    float: left;
+}
+.right{
+    margin-top: 6rem;
+    float: right;
+    max-width: 50%;
+    padding-right: 2rem;
+    align-content: center;
+
+}
+button{
+    background-color: white;
+    display: inline;
+    margin-top: 1.1rem;
+    padding: 11px 40px;
+    border-radius: 20px;
+}
+.pic{
+    margin-left: 10rem;
+    margin-top: 6rem;
+}
+footer{
+    clear: both;
+    position: absolute;
+    bottom: 2rem;
+    max-width: 100%;
+    padding-left: 50rem;
+}
+button:hover{
+    background: rgb(214, 209, 241);
+    cursor: pointer;
+}
